@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c6dcef;
+    padding: 5% 0;
+}
+
+.profile__pic {
+    text-align: center;
+}
+
+.profile__pic img {
+    border-radius: 100%;
+    border: 10px;
+    width: 60%;
+}
+
+.profile__firstname,
+.profile__lastname {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #352a2a;
+}
+
+.profile__designation {
+    border-top: 1px solid #5252b9;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
