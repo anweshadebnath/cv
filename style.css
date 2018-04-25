@@ -38,8 +38,87 @@ body {
 }
 
 .profile__designation {
-    border-top: 1px solid #5252b9;
+    border-top: 1px solid #bbbbe4;
+    ;
     font-size: 1.5rem;
     padding-top: 0.5rem;
     margin-top: 0.5rem;
+}
+
+.information {
+    background-color: #ecf4f7;
+    padding: 5% 0;
+    border-bottom: 1px solid #bbbbe4;
+    padding: 5%;
+}
+
+.information__contact-no,
+.information__email,
+.information__location {
+    font-size: 1.2rem;
+    color: #352a2a;
+    padding: 2%;
+}
+
+.information__contact-no img,
+.information__email img,
+.information__location img {
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4%;
+}
+
+.education {
+    background-color: #ecf4f7;
+    /*padding: 3% 5%;*/
+    border-bottom: 1px solid #bbbbe4;
+    padding: 5%;
+}
+
+.education__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 6% 0;
+    color: #352a2a;
+}
+
+.education__details {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2%;
+    color: #352a2a;
+    margin-top: 3%;
+}
+
+.education__details-1,
+.education__details-line2 {
+    font-size: 1.1rem;
+    color: #352a2a;
+}
+
+.skills {
+    background-color: #ecf4f7;
+    padding: 5%;
+}
+
+.skills__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 6% 0;
+    color: #352a2a;
+}
+
+.round {
+    color: #49a7f9;
+}
+
+.skills__table {
+    width: 90%;
+}
+
+.skills__table-shape {
+    padding-right: 10%;
 }
