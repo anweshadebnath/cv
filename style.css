@@ -47,7 +47,6 @@ body {
 
 .information {
     background-color: #ecf4f7;
-    padding: 5% 0;
     border-bottom: 1px solid #bbbbe4;
     padding: 5%;
 }
@@ -71,7 +70,6 @@ body {
 
 .education {
     background-color: #ecf4f7;
-    /*padding: 3% 5%;*/
     border-bottom: 1px solid #bbbbe4;
     padding: 5%;
 }
@@ -121,4 +119,86 @@ body {
 
 .skills__table-shape {
     padding-right: 10%;
+}
+
+.aboutme {
+    padding: 5%;
+}
+
+.aboutme__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 6% 0;
+    color: #352a2a;
+}
+
+.aboutme__details {
+    font-size: 1.2rem;
+    padding: 2%;
+    color: #352a2a;
+}
+
+.work {
+    padding: 5%;
+}
+
+.work__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 6% 0;
+    color: #352a2a;
+}
+
+.work__details {
+    font-size: 1.2rem;
+    padding: 2%;
+    color: #352a2a;
+}
+
+.certification {
+    padding: 5%;
+}
+
+.certification__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 6% 0;
+    color: #352a2a;
+}
+
+.certification__details {
+    font-size: 1.2rem;
+    padding: 2%;
+    color: #352a2a;
+}
+
+.certification__details1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 2%;
+    color: #352a2a;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 20px;
+    }
 }
