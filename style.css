@@ -12,6 +12,10 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
 }
 
+.column-1 {
+    background-color: #ecf4f7;
+}
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -39,14 +43,12 @@ body {
 
 .profile__designation {
     border-top: 1px solid #bbbbe4;
-    ;
     font-size: 1.5rem;
     padding-top: 0.5rem;
     margin-top: 0.5rem;
 }
 
 .information {
-    background-color: #ecf4f7;
     border-bottom: 1px solid #bbbbe4;
     padding: 5%;
 }
@@ -62,14 +64,13 @@ body {
 .information__contact-no img,
 .information__email img,
 .information__location img {
-    width: 7%;
+    width: 9%;
     display: inline-block;
     vertical-align: middle;
     margin-right: 4%;
 }
 
 .education {
-    background-color: #ecf4f7;
     border-bottom: 1px solid #bbbbe4;
     padding: 5%;
 }
@@ -77,7 +78,6 @@ body {
 .education__title {
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     margin: 6% 0;
     color: #352a2a;
 }
@@ -97,20 +97,38 @@ body {
 }
 
 .skills {
-    background-color: #ecf4f7;
     padding: 5%;
 }
 
 .skills__title {
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     margin: 6% 0;
     color: #352a2a;
 }
 
+.icon {
+    width: 3rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+.icon img {
+    width: 100%;
+}
+
 .round {
-    color: #49a7f9;
+    width: 1rem;
+    height: 1rem;
+    background-color: #1262c5;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.round--light {
+    background-color: #aecff9;
 }
 
 .skills__table {
@@ -128,7 +146,6 @@ body {
 .aboutme__title {
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     margin: 6% 0;
     color: #352a2a;
 }
@@ -146,7 +163,6 @@ body {
 .work__title {
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     margin: 6% 0;
     color: #352a2a;
 }
@@ -164,7 +180,6 @@ body {
 .certification__title {
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     margin: 6% 0;
     color: #352a2a;
 }
@@ -183,22 +198,52 @@ body {
 }
 
 
+.bullet::before {
+    content: '\2609';
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 1%;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {} 
+
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {} 
+
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {} 
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: flex;
+    }
+    .column-1 {
+        flex: 2;
+    }
+    .column-2 {
+        flex: 3;
+    }
+
+    .education__details {
+        margin-top: 8%;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {} 
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {
-    html{
+    html {
         font-size: 20px;
     }
 }
