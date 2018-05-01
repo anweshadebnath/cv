@@ -12,6 +12,11 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
 }
 
+a {
+    text-decoration: none;
+    color: #3399cc;
+}
+
 .column-1 {
     background-color: #ecf4f7;
 }
@@ -98,6 +103,7 @@ body {
 
 .skills {
     padding: 5%;
+    font-size: 1.3rem;
 }
 
 .skills__title {
@@ -140,7 +146,7 @@ body {
 }
 
 .aboutme {
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .aboutme__title {
@@ -157,7 +163,7 @@ body {
 }
 
 .work {
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .work__title {
@@ -173,8 +179,12 @@ body {
     color: #352a2a;
 }
 
+.work__details-company {
+    font-weight: bold;
+}
+
 .certification {
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .certification__title {
@@ -206,13 +216,19 @@ body {
 }
 
 
+
+
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {}
 
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {}
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 
@@ -232,6 +248,8 @@ body {
     }
 }
 
+
+
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
@@ -240,10 +258,8 @@ body {
     }
 }
 
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {
-    html {
-        font-size: 20px;
-    }
-}
+@media only screen and (min-width: 1200px) {}
