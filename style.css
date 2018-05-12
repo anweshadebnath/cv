@@ -36,19 +36,19 @@ a {
 .profile__pic img {
     border-radius: 100%;
     border: 10px;
-    width: 60%;
+    width: 40%;
 }
 
 .profile__firstname,
 .profile__lastname {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #352a2a;
 }
 
 .profile__designation {
     border-top: 1px solid #bbbbe4;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 0.5rem;
     margin-top: 0.5rem;
 }
@@ -61,7 +61,6 @@ a {
 .information__contact-no,
 .information__email,
 .information__location {
-    font-size: 1.2rem;
     color: #352a2a;
     padding: 2%;
 }
@@ -69,7 +68,7 @@ a {
 .information__contact-no img,
 .information__email img,
 .information__location img {
-    width: 9%;
+    width: 6%;
     display: inline-block;
     vertical-align: middle;
     margin-right: 4%;
@@ -77,18 +76,17 @@ a {
 
 .education {
     border-bottom: 1px solid #bbbbe4;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
 }
 
 .education__title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 6% 0;
+    margin: 3% 0;
     color: #352a2a;
 }
 
 .education__details {
-    font-size: 1.2rem;
     font-weight: bold;
     padding: 2%;
     color: #352a2a;
@@ -97,27 +95,25 @@ a {
 
 .education__details-1,
 .education__details-line2 {
-    font-size: 1.1rem;
     color: #352a2a;
 }
 
 .skills {
-    padding: 5%;
-    font-size: 1.3rem;
+    padding: 0 5% 5% 5%;
 }
 
 .skills__title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 6% 0;
+    margin: 3% 0;
     color: #352a2a;
 }
 
 .icon {
-    width: 3rem;
+    width: 2rem;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .icon img {
@@ -130,7 +126,7 @@ a {
     background-color: #1262c5;
     border-radius: 100%;
     display: inline-block;
-    margin-left: 4%;
+    margin-left: 3%;
 }
 
 .round--light {
@@ -152,13 +148,12 @@ a {
 .aboutme__title {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 6% 0;
+    margin-top: 3%;
     color: #352a2a;
 }
 
 .aboutme__details {
-    font-size: 1.2rem;
-    padding: 2%;
+    padding: 1%;
     color: #352a2a;
 }
 
@@ -169,13 +164,12 @@ a {
 .work__title {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 6% 0;
+    margin-top: 3%;
     color: #352a2a;
 }
 
 .work__details {
-    font-size: 1.2rem;
-    padding: 2%;
+    padding: 1%;
     color: #352a2a;
 }
 
@@ -190,20 +184,18 @@ a {
 .certification__title {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 6% 0;
+    margin-top: 3%;
     color: #352a2a;
 }
 
 .certification__details {
-    font-size: 1.2rem;
-    padding: 2%;
+    padding: 1%;
     color: #352a2a;
 }
 
 .certification__details1 {
-    font-size: 1.1rem;
     font-weight: bold;
-    padding: 2%;
+    padding: 1%;
     color: #352a2a;
 }
 
@@ -216,19 +208,14 @@ a {
 }
 
 
-
-
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {}
 
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {}
-
-
 
 /* Medium devices (landscape tablets, 768px and up) */
 
@@ -237,28 +224,26 @@ a {
         display: flex;
     }
     .column-1 {
-        flex: 2;
+        flex: 1;
     }
     .column-2 {
-        flex: 3;
+        flex: 2;
     }
-
-    .education__details {
-        margin-top: 8%;
-    }
+    .round {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 2%;
 }
-
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
-
-
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
